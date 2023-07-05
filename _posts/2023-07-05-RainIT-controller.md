@@ -3,8 +3,8 @@ layout: post
 title:  "RainIT vezérlő"
 author: repa6
 date: 2023-07-05 08:33:00 +0200
-categories: [RainIT, Leírás]
-tags: [RainIT, Leírás]
+categories: [RainIT, Leiras]
+tags: [RainIT, Leiras]
 pin: true
 ---
 
