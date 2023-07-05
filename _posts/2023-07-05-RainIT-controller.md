@@ -1,6 +1,11 @@
 ---
 layout: post
 title:  "RainIT controller"
+author: repa6
+date: 2023-07-05 08:33:00 +0200
+categories: [RainIT, Leírás]
+tags: [RainIT, Leírás]
+pin: true
 ---
 
 # RainIT vezérlő
