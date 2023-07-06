@@ -58,6 +58,11 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: "_site${{ steps.pages.outputs.base_path }}"
+                    
+      - name: Sleep for 3 seconds
+        uses: jakejarvis/wait-action@master
+        with:
+          time: '3s'
 
   deploy:
     environment:
@@ -69,7 +74,7 @@ jobs:
       - name: Sleep for 30 seconds
         uses: jakejarvis/wait-action@master
         with:
-          time: '90s'
+          time: '1s'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
