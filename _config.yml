@@ -84,6 +84,8 @@ avatar:  '/favicons/apple-touch-icon.png'
 
 # boolean type, the global switch for TOC in posts.
 toc: true
+  min_level: 2 # default: 1
+  max_level: 4 # default: 6
 
 comments:
   active: # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
