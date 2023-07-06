@@ -66,6 +66,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - name: Sleep for 30 seconds
+          run: sleep 90s
+          shell: bash
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
