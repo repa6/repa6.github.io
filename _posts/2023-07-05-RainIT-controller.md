@@ -46,7 +46,7 @@ Ez egy saját tervezésű vezérlő, az eredeti opensprinkler DC verzió néhán
   + Zónák
   + Időjárás
   + Integrációs szolgáltatások
-    * OTC token
+    * <a href="https://repa6.github.io/posts/OTC-token/">OTC token</a>
     * MQTT
   + Haladó beállítások
   + Visszaállítás
