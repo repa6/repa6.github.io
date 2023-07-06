@@ -67,8 +67,9 @@ jobs:
     needs: build
     steps:
       - name: Sleep for 30 seconds
-          run: sleep 90s
-          shell: bash
+        uses: jakejarvis/wait-action@master
+        with:
+          time: '90s'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
