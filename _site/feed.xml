@@ -1,0 +1,114 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://0.0.0.0:4000/</id>
+  <title>RainIT</title>
+  <subtitle>A weather based sprinkler controller.</subtitle>
+  <updated>2023-07-13T07:11:34-05:00</updated>
+  <author>
+    <name>repa6</name>
+    <uri>http://0.0.0.0:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://0.0.0.0:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://0.0.0.0:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
+  <rights> © 2023 repa6 </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>OTC-token</title>
+    <link href="http://0.0.0.0:4000/posts/OTC-token/" rel="alternate" type="text/html" title="OTC-token" />
+    <published>2023-07-06T01:33:00-05:00</published>
+  
+    <updated>2023-07-06T06:51:58-05:00</updated>
+  
+    <id>http://0.0.0.0:4000/posts/OTC-token/</id>
+    <content src="http://0.0.0.0:4000/posts/OTC-token/" />
+    <author>
+      <name>repa6</name>
+    </author>
+
+  
+    
+    <category term="RainIT" />
+    
+    <category term="Leiras" />
+    
+    <category term="OTC-token" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      OpenSprinkler távoli hozzáférés az OpenThings Cloud (OTC) Token használatával
+
+Bevezetés
+
+A 2.2.0 firmware-től az OpenSprinkler 3.x támogatja a távoli hozzáférést OpenThings Cloud (OTC) tokenen keresztül. Ez kiküszöböli a porttovábbítás szükségességét (amelyet egyes routerek, különösen a mobil routerek esetében nehéz beállítani). A folytatás előtt győződj meg róla, hogy az OpenSprinkler firmwar...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>RainIT vezérlő</title>
+    <link href="http://0.0.0.0:4000/posts/RainIT-controller/" rel="alternate" type="text/html" title="RainIT vezérlő" />
+    <published>2023-07-05T01:33:00-05:00</published>
+  
+    <updated>2023-07-06T01:40:58-05:00</updated>
+  
+    <id>http://0.0.0.0:4000/posts/RainIT-controller/</id>
+    <content src="http://0.0.0.0:4000/posts/RainIT-controller/" />
+    <author>
+      <name>repa6</name>
+    </author>
+
+  
+    
+    <category term="RainIT" />
+    
+    <category term="Leiras" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+8 zónás wifis öntözésvezérlő
+
+
+
+Helyi hálózaton számítógépről és mobil appból is elérhető, egyszerű regisztráció után házon kívülről is megy. Erős Wifi jel és internetkapcsolat javasolt, de nem feltétlenül szükséges a működéshez.
+
+
+időjáráskövető öntözés
+
+
+
+Az elmúlt két nap időjárási adatai alapján állít aktuális öntözési szintet, tavasszal, ősszel nem locsol túl, nyáron a kánikulában viszon...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+

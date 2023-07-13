@@ -1,0 +1,38 @@
+[
+  
+  {
+    "title": "OTC-token",
+    "url": "/posts/OTC-token/",
+    "categories": "RainIT, Leiras, OTC-token",
+    "tags": "RainIT, Leiras, OTC-token",
+    "date": "2023-07-06 01:33:00 -0500",
+    
+
+
+
+
+
+    
+    "snippet": "OpenSprinkler távoli hozzáférés az OpenThings Cloud (OTC) Token használatávalBevezetésA 2.2.0 firmware-től az OpenSprinkler 3.x támogatja a távoli hozzáférést OpenThings Cloud (OTC) tokenen kereszt...",
+    "content": "OpenSprinkler távoli hozzáférés az OpenThings Cloud (OTC) Token használatávalBevezetésA 2.2.0 firmware-től az OpenSprinkler 3.x támogatja a távoli hozzáférést OpenThings Cloud (OTC) tokenen keresztül. Ez kiküszöböli a porttovábbítás szükségességét (amelyet egyes routerek, különösen a mobil routerek esetében nehéz beállítani). A folytatás előtt győződj meg róla, hogy az OpenSprinkler firmware 2.2.0 vagy magasabb verziószámú. Ha nem, akkor kövesd az  itt található utasításokat  a firmware 2.2.0-ra történő frissítéséhez. Az alábbi utasítások elmagyarázzák, hogyan hozz létre egy OTC tokent, és hogyan használd az OTC tokent a távoli hozzáféréshez.A lépés: OTC token létrehozása A1: Menj a www.openthings.io oldalra, és jelentkezz be az opensprinkler.com bejelentkezési e-mail/felhasználónév és jelszó használatával. Ha még nincs opensprinkler.com fiókod, kérlek, lépj az opensprinkler.com oldalra, és kattints a “My Account” (Fiókom) gombra a tetején, majd regisztrálj egy új felhasználói fiókot. A két weboldal ugyanazt a bejelentkezést használja. A2: Miután bejelentkeztél az openthings.io oldalra, látni fogod a ‘műszerfalat’. A műszerfal bal oldalán kattints a következő gombra    “Az OpenThings eszközeim”    Lásd az alábbi képet az illusztrációhoz.NE kattints a “My OpenThings Blynk Devices” (amely a My OpenThings Blynk Devices felett található), mivel az a Blynk token létrehozására szolgál, nem pedig az OTC tokenre.  A3: Ezután írjd be az eszköz leírását, válaszd ki a legördülő listából az ‘OpenSprinkler’-t, majd kattints az Új eszköz hozzáadása gombra. Ahogy az alábbi képen látható, egy új OpenSprinkler eszközt hoz létre, és megjelenik a fentebb bemutatott OTC token. A token 32 karakter hosszú. Ezt a tokent kell bemásolni és beilleszteni az OpenSprinkler beállításaiba (lásd alább). B. lépés: Az OpenSprinkler beállításainak frissítése   B1: Az OpenSprinkler készülék beállításait meg kell változtatni, hogy engedélyezze az OTC tokent. Ehhez nyiss meg egy böngészőt, és írjd be a készülék IP-címét, ennek meg kell jelenítenie a webes felhasználói felületet.  B2: Kattints a jobb alsó sarokban lévő ikonra a “Beállítások szerkesztése” menüponthoz, majd kattints az “Integráció” fülre. Válaszd az Engedélyezés lehetőséget. Ezután másold/illeszd be a teljes OTC-tokent a Token mezőbe. Az alapértelmezett OTC szerver a ws.cloud.openthings.io, az alapértelmezett port pedig a 80-as. Ezeket változatlanul hagyhatod az alábbi képnek megfelelően.  B3: Mentsd el a módosításokat, és végül indítsd újra az OpenSprinklert. Most már minden készen áll.  B4:  Annak ellenőrzéséhez, hogy az OTC cloud kapcsolat érvényes-e, a vezérlő újraindítása után a kezdőlapon balról jobbra húzva (vagy a bal felső sarokban lévő ikonra kattintva) nyisd meg a bal oldali menüt, majd kattints a ‘Rendszerdiagnosztika’ menüpontra. A panel alján az OTC állapota látható. Ha azt mutatja, hogy ‘Connected’, az azt jelenti, hogy a kapcsolat sikeres. Ha azt mutatja, hogy ‘Connecting…’, akkor 30 másodpercig várj, és ellenőrizze újra. Ha az OTC állapot ‘Not enabled’ (Nem engedélyezve), vagy ‘Disconnected’ (Megszakítva), a kapcsolat valamilyen oknál fogva meghiúsult. Lásd az alábbi képet. C. lépés: Az OTC Token használata távoli hozzáféréshez Az OpenSprinkler mobilalkalmazás jelenlegi verziója támogatja az eszközök hozzáadását az OTC token alapján.Egy webböngészőben a https://ui.opensprinkler.com oldalra is beléphetsz, és az OTC token segítségével hozzáadhatsz egy eszközt.Alternatívaként megnyithatod a böngészőt, és beírhatod a következőt:https://cloud.openthings.io/forward/v1/tokenahol a token az OTC token. Ez lehetővé teszi a vezérlő távoli elérését. Ezt a linket könyvjelzőként is mentheted a böngészőben, vagy okostelefonos eszközön hozzáadhatod ezt a linket a kezdőlaphoz."
+  },
+  
+  {
+    "title": "RainIT vezérlő",
+    "url": "/posts/RainIT-controller/",
+    "categories": "RainIT, Leiras",
+    "tags": "RainIT, Leiras",
+    "date": "2023-07-05 01:33:00 -0500",
+    
+
+
+
+
+
+    
+    "snippet": "8 zónás wifis öntözésvezérlőHelyi hálózaton számítógépről és mobil appból is elérhető, egyszerű regisztráció után házon kívülről is megy. Erős Wifi jel és internetkapcsolat javasolt, de nem feltétl...",
+    "content": "8 zónás wifis öntözésvezérlőHelyi hálózaton számítógépről és mobil appból is elérhető, egyszerű regisztráció után házon kívülről is megy. Erős Wifi jel és internetkapcsolat javasolt, de nem feltétlenül szükséges a működéshez.időjáráskövető öntözésAz elmúlt két nap időjárási adatai alapján állít aktuális öntözési szintet, tavasszal, ősszel nem locsol túl, nyáron a kánikulában viszont rákapcsol, hogy ne száradjon ki a fű vagy a növények. Szezonálisan Budapest környékén 20-30% vizet is képes spórolni. Előfizetés nem szükséges az időjárás szolgáltatás használatához.kényelmes és rugalmas programozásTetszőleges zónák mehetnek párhuzamosan, akár több öntözési program is futhat egyszerre. Kényelmes felületen programozható, nem kell kis gombokat nyomkodni és a menükiosztást megjegyezni. A kezelőfelületen minden beállítási lehetőség látható.frissített hardverEz egy saját tervezésű vezérlő, az eredeti opensprinkler DC verzió néhány hibája javítva lett, valamint IP55 védelemmel rendelkező dobozba került, így várható élettartama hosszabb lesz.további leírások, útmutatók  Üzembe helyezés          Lokáció beállítása      Mester szelep      Zónák      Időjárás      Integrációs szolgáltatások                  OTC token          MQTT                    Haladó beállítások      Visszaállítás      "
+  }
+  
+]
+
