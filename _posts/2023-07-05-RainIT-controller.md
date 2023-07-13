@@ -14,7 +14,7 @@ pin: true
 
 ![Desktop View](/2023-07-05/20220718_173559.jpg){: width="972" height="589" .w-50 .right}
 
-Helyi hálózaton számítógépről és mobil appból is elérhető, egyszerű regisztráció után házon kívülről is megy. Erős Wifi jel és internetkapcsolat javasolt, de nem feltétlenül szükséges a működéshez.
+Aprócska 8 zónás öntözésvezérlő wifi modullal. Helyi hálózaton számítógépről és mobil appból is elérhető, egyszerű regisztráció után házon kívülről is vezérelhető. Erős Wifi jel és internetkapcsolat javasolt, de nem feltétlenül szükséges a működéshez.
 <hr style="width:50%;height:1px;border-width:0;color:gray;background-color:var(--main-bg)">
 
 <h2>időjáráskövető öntözés</h2>
