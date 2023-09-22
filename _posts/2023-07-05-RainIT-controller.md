@@ -40,7 +40,7 @@ Ez egy saját tervezésű vezérlő, az eredeti opensprinkler DC verzió néhán
 
 <h2>további leírások, útmutatók</h2>
 
-- <a href="https://repa6.github.io/posts/Uzembe-helyezes/>Üzembe helyezés</a>
+- <a href="https://repa6.github.io/posts/Uzembe-helyezes/">Üzembe helyezés</a>
   + Lokáció beállítása
   + Mester szelep
   + Zónák
