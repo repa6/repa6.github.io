@@ -13,7 +13,7 @@ OpenSprinkler üzembe helyezése
 
 <h3>Bevezetés</h3>
 
-![Vezérlő](/2023-09-22/controller.jpg){: width="972" height="589" .w-70 .right}
+![Vezérlő](/2023-09-22/controller.jpg){: width="972" height="589" .w-50 .right}
 <h3>1. </h3> Csatlakoztasd a mágnesszelepeket a COM-hoz és a zónákhoz (Z1....Z8)!
 <h3>2. </h3> Csatlakoztasd az adaptert (DC 7.5-9V) a konnektor aljzathoz és a tápcsatlakozó bemenethez! A visszajelző led innentől világítani fog, amíg tápforráshoz van csatlakoztatva a vezérlő.
 <h3>3. </h3> Az OpenSprinkler első indítása után hozzáférési pont módban indul, azaz a hálózatlistában egy új WLAN-t találsz OS_xxxxxxx SSID-vel (megnevezés). Csatlakoztasd okostelefonod vagy laptopod ehhez a WLAN-hoz. Megjegyzés: Android-eszközökön az az üzenet jelenik meg, hogy ennek a kapcsolatnak nincs internetkapcsolata. Válaszd az Igen lehetőséget, hogy csatlakozva maradj.
