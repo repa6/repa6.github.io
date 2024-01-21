@@ -55,14 +55,10 @@ jobs:
           bundle exec htmlproofer _site --disable-external --check-html --allow_hash_href
 
       - name: Upload site artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: "_site${{ steps.pages.outputs.base_path }}"
-          
-      - name: Sleep for 2 seconds
-        uses: jakejarvis/wait-action@master
-        with:
-          time: '2s'
+
 
   deploy:
     environment:
@@ -71,11 +67,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-    
-      - name: Sleep for 2 seconds
-        uses: jakejarvis/wait-action@master
-        with:
-          time: '2s'
+
           
       - name: Deploy to GitHub Pages
         id: deployment
