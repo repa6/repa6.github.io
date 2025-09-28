@@ -6,7 +6,6 @@ refactor: true
 {% include lang.html %}
 
 {% assign all_pinned = site.posts | where: 'pin', 'true' %}
-{% assign all_normal = site.posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}
 
 {% assign posts = '' | split: '' %}
 
@@ -27,24 +26,6 @@ refactor: true
   {% endfor %}
 {% else %}
   {% assign pinned_size = 0 %}
-{% endif %}
-
-<!-- Get normal posts on current page -->
-
-{% assign normal_size = paginator.posts | size | minus: pinned_size %}
-
-{% if normal_size > 0 %}
-  {% if pinned_size > 0 %}
-    {% assign normal_start = 0 %}
-  {% else %}
-    {% assign normal_start = visible_start | minus: all_pinned.size %}
-  {% endif %}
-
-  {% assign normal_end = normal_start | plus: normal_size | minus: 1 %}
-
-  {% for i in (normal_start..normal_end) %}
-    {% assign posts = posts | push: all_normal[i] %}
-  {% endfor %}
 {% endif %}
 
 <div id="post-list" class="flex-grow-1 px-xl-1">
