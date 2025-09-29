@@ -6,6 +6,7 @@ categories: [RainIT, Leiras, OTC-token]
 tags: [RainIT, Leiras, OTC-token]
 pin: false
 img_path: '/assets/img/20230922'
+media_subpath: '/posts/20230922'
 ---
 
 

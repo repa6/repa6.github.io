@@ -6,6 +6,7 @@ categories: [RainIT, Leiras, HomeAssistant]
 tags: [RainIT, Leiras, HomeAssistant]
 pin: false
 img_path: '/assets/img/20250126'
+media_subpath: '/posts/20250126'
 ---
 
 

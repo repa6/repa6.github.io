@@ -6,6 +6,7 @@ categories: [RainIT, Leiras]
 tags: [RainIT, Leiras, Reset]
 pin: false
 img_path: '/assets/img/20250302'
+media_subpath: '/posts/20250302'
 ---
 
 ## WiFi routert cserélek, mi a teendő?

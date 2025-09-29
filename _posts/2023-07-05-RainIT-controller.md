@@ -6,6 +6,7 @@ categories: [RainIT, Leiras]
 tags: [RainIT, Leiras]
 pin: true
 img_path: '/assets/img/20230705'
+media_subpath: '/posts/20230705'
 ---
 
 
